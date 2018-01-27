@@ -1,0 +1,42 @@
+{
+  "name": "layoutstats-gulp-workflow",
+  "version": "1.0.0",
+  "description": "build workflow for css-stats-diff",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "cssstats": "^3.2.0",
+    "gulp-json-transform": "^0.4.5"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-css-longhand": "^1.0.3",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-json-concat": "^0.1.1",
+    "gulp-json-transform": "^0.4.5",
+    "gulp-run": "^1.7.1",
+    "gulp-text-simple": "^0.4.2",
+    "merge-stream": "^1.0.1",
+    "vinyl-paths": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layoutanalysis/layoutstats-gulp-workflow.git"
+  },
+  "keywords": [
+    "gulp",
+    "cssstats",
+    "css",
+    "diff",
+    "similarity"
+  ],
+  "author": "layoutanalysis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/layoutanalysis/layoutstats-gulp-workflow/issues"
+  },
+  "homepage": "https://github.com/layoutanalysis/layoutstats-gulp-workflow#readme"
+}
