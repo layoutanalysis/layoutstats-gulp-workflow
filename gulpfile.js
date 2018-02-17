@@ -204,7 +204,7 @@ gulp.task('default',['concatjson']);
 
 gulp.task('download_css', function(){
     var queue = new Queue({concurrency: 2});
-    return gulp.src(['snapshot-css/lefigaro.txt'])  //breaks at Downloaded https://web.archive.org/web/20111101014023/http://www.lefigaro.fr/ to lefigaro20111101014023.json
+    return gulp.src(['snapshot-css/*.txt'])  //breaks at Downloaded https://web.archive.org/web/20111101014023/http://www.lefigaro.fr/ to lefigaro20111101014023.json
        .pipe(readFiles(function (content, file, stream, cb) {
            var snapshotUrls = content.split(endOfLine);
            var newspaper = path.basename(file.path,'.txt');
